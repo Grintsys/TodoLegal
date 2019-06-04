@@ -38,9 +38,8 @@ window.onload = (function () {
                 if (busquedasm === resultadosm && busquedasm!="" && results[i].tipo === "ley") {
                     $("#leyes").append(`<div class="card" style="width: 100%; margin-top:10px;"><div class="card-body" style="margin-top: 10px; width: 100%;"><h1 id="name"class="card-title">${results[i].nombre}</h1><h4 id="descripcion"class="card-title">${results[i].descripcion}</h4><h4 id="name"class="card-title">${results[i].tipo}</h4></div></div>`);
                 }
-                if (busquedasm === resultadosm && busquedasm!="") {
                     $("#todos").append(`<div class="card" style="width: 100%; margin-top:10px;"><div class="card-body" style="margin-top: 10px; width: 100%;"><h1 id="name"class="card-title">${results[i].nombre}</h1><h4 id="descripcion"class="card-title">${results[i].descripcion}</h4><h4 id="name"class="card-title">${results[i].tipo}</h4></div></div>`);
-                }
+                
             }
 
         }).keyup();
@@ -48,3 +47,4 @@ window.onload = (function () {
         console.log(e);
     }
 });
+  
