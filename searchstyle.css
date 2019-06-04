@@ -5,3 +5,19 @@
 #search, #searchgroup, #container{
     width: 100%;
 }
+
+nav{
+    margin-bottom: 0%;
+}
+
+#tabs-icons-text-1, #tabs-icons-text-2,#tabs-icons-text-3,#card-shadow{
+    background-color: rgb(248, 244, 244);
+}
+
+#noticias, #leyes, #todos{
+    width: 100%;
+}
+
+#header-body{
+    height: 100%;
+}
