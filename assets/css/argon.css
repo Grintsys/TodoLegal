@@ -19861,6 +19861,11 @@ textarea[resize='horizontal']
     }
 }
 
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
 .navbar-search .input-group
 {
     border: 2px solid;
