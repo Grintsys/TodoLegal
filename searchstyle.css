@@ -21,3 +21,45 @@ nav{
 #header-body{
     height: 100%;
 }
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+}
+
+#d-flex {
+    display: flex;
+    align-items: center;
+}
+
+#iconsearch,#searchinput{
+    background: none;
+}
+
+#searchinput{
+    width: 80%;
+}
+
+#d-flex{
+    width: 100%;
+}
+
+#navbar{
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+}
+
+#input-group{
+    border-radius: 20px;
+    width: 80%;
+}
+
+#form-group{
+    width: 100%; 
+}
+
+#navbarinverse{
+    background-color: none;
+    width:80%;
+}

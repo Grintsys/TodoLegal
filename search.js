@@ -40,11 +40,40 @@ window.onload = (function () {
                 }
                     $("#todos").append(`<div class="card" style="width: 100%; margin-top:10px;"><div class="card-body" style="margin-top: 10px; width: 100%;"><h1 id="name"class="card-title">${results[i].nombre}</h1><h4 id="descripcion"class="card-title">${results[i].descripcion}</h4><h4 id="name"class="card-title">${results[i].tipo}</h4></div></div>`);
                 
-            }
+            }  
 
         }).keyup();
+
+        $("#searchinput").on('keyup', function () {
+            var search = $("#searchinput").val();
+            var arraySearch = Array.from(search);
+            if(arraySearch.length === 0)
+            { $("#ul").hide();}
+            else{$("#ul").show();}
+            $("#ul").text("");
+            for (i = 0; i < results.length; i++) {
+                var busquedas = "";
+                var resultados = "";
+                var result = Array.from(results[i].nombre);
+                for (a = 0; a < arraySearch.length; a++) {
+                    busquedas = busquedas + arraySearch[a];
+                    resultados = resultados + result[a];
+                }
+
+                var busquedasm = busquedas.toUpperCase();
+                var resultadosm = resultados.toUpperCase();
+                if (busquedasm === resultadosm && busquedasm!="") {
+                    $("#ul").append(`<li role="presentation"><div class="dropdown-divider"></div><a role="menuitem" tabindex="-1" href="search.html">${results[i].nombre}</a></li>`);
+                }
+            }   
+        }).keyup();
+
     } catch (e) {
         console.log(e);
     }
 });
-  
+
+function entersearch(){
+    debugger
+    window.location="search.html";
+}
