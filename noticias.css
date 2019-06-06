@@ -1,0 +1,16 @@
+#listnews{
+    position: absolute;
+    background-color:white;
+    border-radius: 5px;
+    list-style-type: none;
+    margin: auto auto;
+    height: 80%;
+}
+
+#navcategorias{
+    margin-left: 0.01%; 
+}
+
+#header,#Topnav{
+    margin-left: 2%; 
+}
