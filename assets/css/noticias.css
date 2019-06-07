@@ -1,0 +1,20 @@
+body{
+    background-color: #5e72e4;
+}
+
+#listnews{
+    position: absolute;
+    background-color:white;
+    border-radius: 5px;
+    list-style-type: none;
+    margin-left: -2.8%;
+    height: 80%;
+}
+
+#header, #main-content, #container-fluid, #header-body, #divcategoria{
+    height: 100%;
+}
+#containercards{
+    margin-left: 20%; 
+    margin-top: -15%;
+}
