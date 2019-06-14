@@ -18882,7 +18882,6 @@ textarea[resize=horizontal] {
 
 .timeline-block {
     position: relative;
-    margin: 2em 0
 }
 
 .timeline-block:after {
@@ -19030,7 +19029,7 @@ textarea[resize=horizontal] {
 
 @media (min-width:992px) {
     .timeline-one-side .timeline-content {
-        max-width: 30rem
+        max-width: 90rem
     }
 }
 

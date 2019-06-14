@@ -1,0 +1,69 @@
+body{
+    background-color: #5e72e4;
+}
+
+#formsearch{
+    width: 75%;
+}
+
+#search, #searchgroup, #container{
+    width: 100%;
+}
+
+nav{
+    margin-bottom: 0%;
+}
+
+#tabs-icons-text-1, #tabs-icons-text-2,#tabs-icons-text-3,#card-shadow{
+    background-color: rgb(248, 244, 244);
+}
+
+#noticias, #leyes, #todos{
+    width: 100%;
+}
+
+#header-body{
+    height: 100%;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+}
+
+#d-flex {
+    display: flex;
+    align-items: center;
+}
+
+#iconsearch,#searchinput{
+    background: none;
+}
+
+#searchinput{
+    width: 80%;
+}
+
+#d-flex{
+    width: 100%;
+}
+
+#navbar{
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+}
+
+#input-group{
+    border-radius: 20px;
+    width: 80%;
+}
+
+#form-group{
+    width: 100%; 
+}
+
+#navbarinverse{
+    background-color: none;
+    width:80%;
+}
